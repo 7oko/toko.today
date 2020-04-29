@@ -1,0 +1,58 @@
+@import "../../node_modules/font-awesome/scss/font-awesome.scss";
+@import "../../node_modules/unsemantic/assets/sass/unsemantic-grid-responsive.scss";
+
+@import "header.scss";
+@import "identities.scss";
+
+@import "chem-elements.scss";
+@import "misc.scss";
+
+body {
+    font-size: 1em;
+    margin: 0;
+}
+
+html {
+    background: url('../images/tokobg.svg');
+    font-family: "Helvetica Neue", Helvetica, Arial, PingFangTC-Light, "Microsoft YaHei", 微软雅黑, "STHeiti Light", STXihei, "华文细黑", Heiti, 黑体, sans-serif;
+}
+
+.copyright {
+    background: rgb(16, 54, 107);
+    color: #eee;
+    font-size: 0.9em;
+    line-height: 2em;
+    padding: 0.5em 1em;
+}
+
+.header .greeting .chem-element {
+    text-decoration: none;
+}
+
+.acknowledgement {
+    background: rgb(33,109,146);
+    color: #eee;
+    font-size: 0.9em;
+    font-weight: normal;
+    display: block;
+    padding: 0.75em 1em;
+    text-decoration: none;
+}
+
+.acknowledgement .link {
+    color: rgb(70,160,174);
+}
+
+.main-container {
+    margin: 0 auto;
+    max-width: 64em;
+}
+
+.no-wrap {
+    display: inline-block;
+}
+
+.section {
+    box-shadow: 0 0 0.15em 0.15em rgba(0, 0, 0, 0.125);
+    margin: 1em 0;
+}

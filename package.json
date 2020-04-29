@@ -1,0 +1,27 @@
+{
+  "name": "nato",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicnat/who.nat.moe.git"
+  },
+  "author": "Maho Morichika <nat@nat.moe>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magicnat/who.nat.moe/issues"
+  },
+  "homepage": "https://github.com/magicnat/who.nat.moe/",
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.4.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "unsemantic": "^1.2.3"
+  }
+}
